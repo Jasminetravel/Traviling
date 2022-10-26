@@ -1,4 +1,7 @@
-  <!DOCTYPE html>
+<?php
+include direname(_FILE_).'index.php'; 
+?>  
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
