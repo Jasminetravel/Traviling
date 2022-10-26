@@ -26,7 +26,7 @@
         </div>
         <ul>
                   <li><a href="#home">Home</a></li>
-          <li><button onclick="location.href='index.php'">Book</button></li>
+               <li><a href="#Book">Book</a></li>
           <!-- <li><a href="#Packages">Packages</a></li> -->
           <li><a href="#services">Services</a></li>
           <!-- <li><a href="#">Galleray</a></li> -->
@@ -56,7 +56,58 @@
         muted
       ></video>
     </section>
-  
+  <section class="Book" id="Book">
+      <div class="heading">
+        <h1>
+          <span>B</span><span>O</span><span>o</span><span>k</span> <span>N</span
+          ><span>o</span><span>w</span>
+        </h1>
+      </div>
+      <div class="bb">
+        <img src="book-img.svg" alt="" />
+        <form action="book_form.php" method="post">
+          <div class="input">
+            <h3>Full Name</h3>
+            <input type="text" placeholder="Enter Your Name" id="
+            name" name="name" />
+          </div>
+           <div class="input">
+            <h3>Phone</h3>
+            <input type="text" placeholder="Enter Your Number" required name="phone" />
+          </div> 
+           <div class="input">
+            <h3>Eamil</h3>
+            <input type="text" placeholder="Enter Your Email" required name="email" />
+          </div>
+          <div class="input">
+            <h3>Where To</h3>
+            <input type="text" placeholder="place you want to visit" required name="where_to" />
+          </div>
+          <div class="input">
+            <h3>Hotel</h3>
+            <input type="text" placeholder="Hotel you want to stay" required name="hotel"/>
+          </div>
+          <div class="input">
+            <h3>How Many Room</h3>
+            <input
+              type="number"
+              placeholder="Rooms you want to stay"
+              required
+              name="guests"
+            />
+          </div>
+          <div class="input">
+            <h3>Leaving</h3>
+            <input type="date" name="leaving" required />
+          </div>
+          <div class="input">
+            <h3>Arrivals</h3>
+            <input type="date" required name="arrivals" /> -->
+          </div>
+          <input type="submit" class="btn" name="send" value="Book Now" />
+        </form>
+      </div>
+    </section>
     <!-- <section class="packages" id="Packages"> -->
       <!-- <div class="heading">
         <h1>
