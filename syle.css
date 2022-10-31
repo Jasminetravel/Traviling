@@ -154,7 +154,8 @@ margin-left: 60px;
 /* END HEADER */
 /* START HOME */
 .home{
-    /* background: url(/FullSizeRender.jpg); */
+   background:  url(FullSizeRender.jpg);
+     background-size: cover;
     display: flex;
     align-items: center;
     flex-direction: column;
