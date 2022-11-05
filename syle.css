@@ -129,7 +129,7 @@ width: 100%;
         position: absolute;
         left: 50%;
         z-index: 1;
-        top: -150px;
+        top: -350px;
         transform: translateX(-50%);
         opacity: 0;
       
