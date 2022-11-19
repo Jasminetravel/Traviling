@@ -1,4 +1,3 @@
-
-User-agent: *
+User-agent:*
 Disallow:
-Sitemap:https://jasminetravel.github.io/Traviling/
+Sitemap:https://jasminetravel.github.io/Traviling/sitemap.xml
