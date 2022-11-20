@@ -1,3 +1,0 @@
-User-agent:*
-Disallow:
-Sitemap:https://jasminetravel.github.io/Traviling/sitemap.xml
